@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import ReportWebVitals from "./reportWebVitals";
 import {Navbar} from "./Components/Navbar";
 import {Search} from "./Components/Search";
+import {ShowChat} from "./Components/ShowChat";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path = "/login" element={<Login />}/>
                 <Route path = "/register" element={<Register />} />
                 <Route path = "/search" element={<Search />} />
+                <Route path = "/showChat" element={<ShowChat />} />
             </Routes>
           </Router>
       </div>
